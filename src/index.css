@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+.ant-upload-list.ant-upload-list-text {
+  display: none;
+}
+
+.custom-uploader p {
+  margin: 0 !important;
+}
+
+.custom-uploader {
+  height: 80px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.custom-uploader .ant-upload-drag {
+  border: 1px dashed white;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.custom-uploader .ant-upload-drag-icon {
+  font-size: 14px;
+  color: white;
+}
+
+.custom-uploader .ant-upload-text {
+  color: rgba(255, 255, 255, 0.6) !important;
+  padding-top: 10px;
+  font-size: 14px !important;
+}
+
+.custom-uploader .ant-upload-hint {
+  color: white !important;
+  font-size: 14px !important;
+}
+
+.ant-menu-item {
+  padding-left: 8px !important;
+}
